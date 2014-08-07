@@ -24,6 +24,7 @@
 		$resp = array("status"=>"fail","reason"=>"please send action resquest header parameter");
 		echo(json_encode($resp))
 		return
+	}
 
 
 
@@ -35,7 +36,6 @@
 			$res= addGetChat($userN, $mes);
 			echo(json_encode($res));
 
-			
 		break;
 
 		default:
@@ -48,5 +48,8 @@
 	}	
 ?>
 
+
+
+		
 		
 
